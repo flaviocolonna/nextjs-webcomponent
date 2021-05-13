@@ -7,7 +7,7 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>NextJS Web Component App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main>
@@ -18,12 +18,11 @@ export default function Home() {
       </main>
       <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://www.frontendpills.it"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          <img src="/logo.svg" alt="FrontendPills Logo" className="logo" />
         </a>
       </footer>
 
@@ -53,10 +52,6 @@ export default function Home() {
           display: flex;
           justify-content: center;
           align-items: center;
-        }
-
-        footer img {
-          margin-left: 0.5rem;
         }
 
         footer a {
@@ -92,7 +87,7 @@ export default function Home() {
         }
 
         .logo {
-          height: 1em;
+          height: 1.5rem;
         }
       `}</style>
 
